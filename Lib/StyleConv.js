@@ -88,6 +88,13 @@ const opAttr = {
     wrap : "flx_wrap",
     rr : "flx_row_reverse" ,
     cr : "flx_col_reverse" ,
+    tl : "tl",
+    tc : "tc",
+    tr : "tr",
+    tj : "tj",
+    lhs : "lh-solid",
+    lht : "lh-title",
+    lhc : "lh-copy",
 }
 const opKey = {
   aop: "acls",
