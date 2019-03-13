@@ -1,7 +1,7 @@
 import {Dimensions,PixelRatio} from 'react-native';
 
 const rem = (Dimensions.get('window').width/32).toFixed(5);
-const fontRem = rem/PixelRatio.getFontScale()+50;
+const fontRem = rem/PixelRatio.getFontScale()+30;
 export {
   rem,
   fontRem
