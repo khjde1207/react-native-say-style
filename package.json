@@ -1,0 +1,16 @@
+{
+  "name": "@react-native-say-style/react-native-say-style",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "react": "^16.8.4",
+    "react-native-style-tachyons": "^4.0.0"
+  }
+}
