@@ -6,7 +6,7 @@ import  Gcss ,{rem, fontRem} from './Lib/GlobalCss';
 import _ from 'lodash';
 import NativeTachyons , {styles, sizes} from "react-native-style-tachyons";
 
-class T{
+class T{ 
   cuerTheme = "";
   themeList = {};
   eventList=[];

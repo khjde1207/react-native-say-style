@@ -1,16 +1,43 @@
 {
-  "name": "react-native-say-style",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "git+https://github.com/khjde1207/react-native-say-style.git",
+  "_id": "react-native-say-style@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-say-style",
+  "_phantomChildren": {
+    "loose-envify": "1.4.0",
+    "object-assign": "4.1.1",
+    "prop-types": "15.7.2"
   },
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/khjde1207/react-native-say-style.git",
+    "rawSpec": "https://github.com/khjde1207/react-native-say-style.git",
+    "saveSpec": "git+https://github.com/khjde1207/react-native-say-style.git",
+    "fetchSpec": "https://github.com/khjde1207/react-native-say-style.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/khjde1207/react-native-say-style.git#52133a0353d3246a2f613c464b6c51cc5d1c6104",
+  "_spec": "https://github.com/khjde1207/react-native-say-style.git",
+  "_where": "/home/khjde1207/Sync/native_core",
   "author": "",
-  "license": "ISC",
+  "bundleDependencies": false,
   "dependencies": {
     "lodash": "^4.17.11",
     "react": "^16.8.4",
     "react-native-style-tachyons": "^4.0.0"
-  }
+  },
+  "deprecated": false,
+  "description": "",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "react-native-say-style",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }
