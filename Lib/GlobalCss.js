@@ -223,6 +223,8 @@ export default {
     }
   },
   customStyles : {
+    br6  : {borderRadius : 3*rem},
+    br7  : {borderRadius : 4*rem}, 
     gf0 : {fontSize: 0},
     gf5 : {fontSize: 0.35714*fontRem },
     gf8 : {fontSize: 0.57143*fontRem },
@@ -1053,6 +1055,25 @@ export default {
     flx8 : {flex : 0.8},
     flx9 : {flex : 0.9},
     
+    zIndex_1 : {zIndex : -1},
+    zIndex_2 : {zIndex : -2},
+    zIndex_3 : {zIndex : -3},
+    zIndex_4 : {zIndex : -4},
+    zIndex_5 : {zIndex : -5},
+    zIndex_10 : {zIndex : -10},
+    zIndex_11 : {zIndex : -11},
+    zIndex_12 : {zIndex : -12},
+
+    zIndex1 : {zIndex : 1},
+    zIndex2 : {zIndex : 2},
+    zIndex3 : {zIndex : 3},
+    zIndex4 : {zIndex : 4},
+    zIndex5 : {zIndex : 5},
+    zIndex10 : {zIndex : 10},
+    zIndex11 : {zIndex : 11},
+    zIndex12 : {zIndex : 12},
+    
+
 
   }
 }

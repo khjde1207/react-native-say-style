@@ -79,6 +79,7 @@ const opAttr = {
     T : {},
     C : "jcc",
     Ca : "jcsa",
+    SB : "jcsb",
     B : "jcfe",
     l : {},
     r : "aife", 
@@ -95,6 +96,10 @@ const opAttr = {
     lhs : "lh-solid",
     lht : "lh-title",
     lhc : "lh-copy",
+    asfs : "asfs",
+    asfe : "asfe",
+    asc : "asfe",
+    ass : "asfe",
 }
 const opKey = {
   aop: "acls",
