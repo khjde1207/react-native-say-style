@@ -1,7 +1,7 @@
 import {Dimensions,PixelRatio} from 'react-native';
 
 const rem = (Dimensions.get('window').width/32).toFixed(5);
-const fontRem = rem/PixelRatio.getFontScale()+10; 
+const fontRem = rem/PixelRatio.getFontScale()+(Number.parseFloat(rem)/2);   
 export {
   rem,
   fontRem
@@ -14,7 +14,7 @@ export default {
     palette : {
       test : "#F0F",
       test1 : "#00F",
-      test2 : "#F0F",
+      test2 : "#FFF",
       test3 : "#0FF",
       test4 : "#FF0",
 
@@ -1026,7 +1026,32 @@ export default {
     h5p : {width   : "5%"},
     h5p : {height  : "5%"},
     
+    gh0_1 : {height  : 0.1*rem},
+    gh0_2 : {height  : 0.2*rem},
+    gh0_3 : {height  : 0.3*rem},
+    gh0_4 : {height  : 0.4*rem},
+    gh0_5 : {height  : 0.5*rem},
+    gh0_6 : {height  : 0.6*rem},
+    gh0_7 : {height  : 0.7*rem},
+    gh0_8 : {height  : 0.8*rem},
+    gh0_9 : {height  : 0.9*rem},
     
+
+    gh1 : {height  : 1*rem},
+    gh2 : {height  : 2*rem},
+    gh3 : {height  : 3*rem},
+    gh4 : {height  : 4*rem},
+    gh5 : {height  : 5*rem},
+
+    flx1 : {flex : 0.1},
+    flx2 : {flex : 0.2},
+    flx3 : {flex : 0.3},
+    flx4 : {flex : 0.4},
+    flx5 : {flex : 0.5},
+    flx6 : {flex : 0.6},
+    flx7 : {flex : 0.7}, 
+    flx8 : {flex : 0.8},
+    flx9 : {flex : 0.9},
     
 
   }

@@ -8,6 +8,13 @@ let num  = Number(rem/15).toFixed(2);
 const Svg = (props) => {
   var width = props.width;
   var height = props.height;
+  viewBox = {};
+  if(props.viewBox){
+    let arrTmpBox = props.viewBox.split(" ");
+    if(arrTmpBox.length == 4){
+      viewBox["viewBox"] = `${arrTmpBox[0]} ${arrTmpBox[1]} ${arrTmpBox[2]*num} ${arrTmpBox[3]*num}`
+    }
+  }
   if( typeof width == "number"){width *= num}
   if( typeof height == "number"){height *= num}
   
@@ -15,7 +22,7 @@ const Svg = (props) => {
   //   let TmpSvg =   Animatable.createAnimatableComponent(Svgs);
   //   return React.createElement(TmpSvg , {...props , width : width , height :height , ...SC.conv(props , {}), ...SC.cls(props.cls | {}) });
   // } 
-  return React.createElement(Svgs , {...props , width : width , height :height , ...SC.conv(props , {}), ...SC.cls(props.cls | {}) });
+  return React.createElement(Svgs , {...props , width : width , height :height , ...SC.conv(props , {}), ...SC.cls(props.cls | {}), ...viewBox });
 } 
 const G = (props) => {
   return React.createElement(g , {...props , scale : num, ...SC.cls(props.cls | {})}); 
