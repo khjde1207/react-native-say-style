@@ -1005,7 +1005,11 @@ export default {
     h65p : {height  : "65%"},
 
     h55p : {width   : "55%"},
+<<<<<<< HEAD
     h55p : {height  : "55%"}, 
+=======
+    h55p : {height  : "55%"},
+>>>>>>> 7e4a682c4d5faa20ec0aa04205b80622d7f03306
     h50p : {width   : "50%"},
     h50p : {height  : "50%"},
     h45p : {width   : "45%"},
