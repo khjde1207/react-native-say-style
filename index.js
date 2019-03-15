@@ -10,7 +10,7 @@ import NativeTachyons , {styles, sizes} from "react-native-style-tachyons";
 class T{ 
   cuerTheme = "";
   themeList = {};
-  eventList=[];
+  eventList=[]; 
   constructor(){ 
     NativeTachyons.build({...Gcss},StyleSheet);
   }
