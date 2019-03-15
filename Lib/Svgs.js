@@ -1,5 +1,6 @@
 import React from 'react'
-import Svgs,{  Circle,  Ellipse,  G as g,  Text,  TSpan,  TextPath,  Path,  Polygon,  Polyline,  Line,  Rect,  Use,  Image,  Symbol,  Defs,  LinearGradient,  RadialGradient,  Stop,  ClipPath,  Pattern,  Mask,} from 'react-native-svg';
+import Svgs,{  Circle,  Ellipse,  G as g,  Text,  TSpan,  TextPath,  Path as p ,  Polygon,  Polyline,  Line,  Rect,  Use,  Image,  Symbol,  Defs,  LinearGradient,  RadialGradient,  Stop,  ClipPath,  Pattern,  Mask,} from 'react-native-svg';
+import { AnimatedSVGPath } from 'react-native-svg-animations';
 import * as Animatable from 'react-native-animatable';
 import {SC } from './StyleConv'
 import  {rem} from './GlobalCss';
@@ -26,6 +27,13 @@ const Svg = (props) => {
 } 
 const G = (props) => {
   return React.createElement(g , {...props , scale : num, ...SC.cls(props.cls | {})}); 
+}
+
+const Path = (props) => {
+  if(props.ani){
+    return React.createElement(AnimatedSVGPath , {...props ,});   
+  }
+  return React.createElement(p , {...props ,}); 
 }
 
 export {
