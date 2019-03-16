@@ -1,7 +1,11 @@
 import {Dimensions,PixelRatio} from 'react-native';
 
 const rem = (Dimensions.get('window').width/32).toFixed(5);
+<<<<<<< HEAD
 const fontRem = rem/PixelRatio.getFontScale()+(Number.parseFloat(rem)/3);   
+=======
+const fontRem = rem/PixelRatio.getFontScale()+(Number.parseFloat(rem)/2);   
+>>>>>>> 5f66322c2e05451faf16fe68b128e75fd99dcd9f
 export {
   rem,
   fontRem
@@ -105,11 +109,14 @@ export default {
       cInstagram: "#3f729b",
       cInstagram_hover: "#386589",
 
+<<<<<<< HEAD
       cGold : "#ffd700",
       cSilver : "#c0c0c0",
       cbronze : "#cd7f32",
 
 
+=======
+>>>>>>> 5f66322c2e05451faf16fe68b128e75fd99dcd9f
       /*------------------------------------
         Rgba
       ------------------------------------*/

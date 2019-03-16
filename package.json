@@ -11,8 +11,8 @@
   },
   "_requested": {
     "type": "git",
-    "raw": "https://github.com/khjde1207/react-native-say-style",
-    "rawSpec": "https://github.com/khjde1207/react-native-say-style",
+    "raw": "https://github.com/khjde1207/react-native-say-style.git",
+    "rawSpec": "https://github.com/khjde1207/react-native-say-style.git",
     "saveSpec": "git+https://github.com/khjde1207/react-native-say-style.git",
     "fetchSpec": "https://github.com/khjde1207/react-native-say-style.git",
     "gitCommittish": null
@@ -21,9 +21,9 @@
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/khjde1207/react-native-say-style.git#5f66322c2e05451faf16fe68b128e75fd99dcd9f",
-  "_spec": "https://github.com/khjde1207/react-native-say-style",
-  "_where": "/home/khjde1207/reactNative/unist-game",
+  "_resolved": "git+https://github.com/khjde1207/react-native-say-style.git#52133a0353d3246a2f613c464b6c51cc5d1c6104",
+  "_spec": "https://github.com/khjde1207/react-native-say-style.git",
+  "_where": "/home/khjde1207/Sync/native_core",
   "author": "",
   "bundleDependencies": false,
   "dependencies": {
