@@ -1,0 +1,44 @@
+{
+  "_from": "git+https://github.com/khjde1207/react-native-say-style.git",
+  "_id": "react-native-say-style@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-say-style",
+  "_phantomChildren": {
+    "loose-envify": "1.4.0",
+    "object-assign": "4.1.1",
+    "prop-types": "15.7.2"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/khjde1207/react-native-say-style",
+    "rawSpec": "https://github.com/khjde1207/react-native-say-style",
+    "saveSpec": "git+https://github.com/khjde1207/react-native-say-style.git",
+    "fetchSpec": "https://github.com/khjde1207/react-native-say-style.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/khjde1207/react-native-say-style.git#5f66322c2e05451faf16fe68b128e75fd99dcd9f",
+  "_spec": "https://github.com/khjde1207/react-native-say-style",
+  "_where": "/home/khjde1207/reactNative/unist-game",
+  "author": "",
+  "bundleDependencies": false,
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "react": "^16.8.4",
+    "react-native-animatable": "^1.3.1",
+    "react-native-style-tachyons": "^4.0.0"
+  },
+  "deprecated": false,
+  "description": "",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "react-native-say-style",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
