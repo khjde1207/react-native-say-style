@@ -8,7 +8,7 @@ export {
   fontRem
 }
 
-export default {
+export default { 
   rem : rem,
   fontRem : fontRem,
   colors : {
