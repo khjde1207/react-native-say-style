@@ -108,7 +108,7 @@ export default {
       cGold : "#ffd700",
       cSilver : "#c0c0c0",
       cbronze : "#cd7f32",
-
+      cUni : "#0a8f82FF",
 
       /*------------------------------------
         Rgba
@@ -1042,7 +1042,7 @@ export default {
     w2p : {width :  "2%"},
     w0p : {width :  "0%"},
 
-    
+
     h100p : {height :  "100%"},
     h98p : {height :  "98%"},
     h96p : {height :  "96%"},
