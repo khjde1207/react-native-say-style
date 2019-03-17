@@ -1,5 +1,6 @@
 import {Dimensions,PixelRatio} from 'react-native';
 
+const hMax = Dimensions.get('window').height
 const rem = (Dimensions.get('window').width/32).toFixed(5);
 const fontRem = rem/PixelRatio.getFontScale()+(Number.parseFloat(rem)/3);   
 export {
@@ -1095,6 +1096,7 @@ export default {
     h2p : {height :  "2%"},
     h0p : {height :  "0%"},
     
+    hmax : {height: hMax},
     gh0_1 : {height  : 0.1*rem},
     gh0_2 : {height  : 0.2*rem},
     gh0_3 : {height  : 0.3*rem},
