@@ -1,10 +1,10 @@
-import {PixelRatio} from 'react-native';
+import {Dimensions,PixelRatio} from 'react-native';
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
+const hMax = Dimensions.get('window').height;
 const rem = wp("3.1019%");
 const fontScale = PixelRatio.getFontScale();
 const fontRem = hp("2.2%")/fontScale;
-
 export {
   rem,
   fontRem,
@@ -459,11 +459,14 @@ export default {
       }
 
       let mpName = ["gma", "gmt" ,"gmb" , "gml", "gmr", "gmh", "gmv",
-                    "gpa", "gpt" ,"gpb" , "gpl", "gpr", "gph", "gpv"];
+                    "gpa", "gpt" ,"gpb" , "gpl", "gpr", "gph", "gpv",
+                    "gminw" , "gminh"];
       let mpVlaue = [ "margin", "marginTop" ,"marginBottom" ,"marginLeft", "marginRight", "marginHorizontal", "marginVertical",
-                      "padding", "paddingTop" ,"paddingBottom" ,"paddingLeft", "paddingRight", "paddingHorizontal", "paddingVertical"]
+                      "padding", "paddingTop" ,"paddingBottom" ,"paddingLeft", "paddingRight", "paddingHorizontal", "paddingVertical",
+                      "minWidth" ,"minHeight"]
       let callfunction = [wp , hp, hp , wp,wp, wp, hp,
-                          wp , hp, hp , wp,wp, wp, hp]
+                          wp , hp, hp , wp,wp, wp, hp,
+                          wp, hp]
       for(var i = 30 ; i >= -30 ; i--){ 
          
         for(let idx in mpName){
@@ -475,12 +478,8 @@ export default {
       } 
       return rtn;
     }(),
-
-    // w100p : {width :  "100%
-    
-    hmax : {height: hp(100)},
    
-    
+    hmax : {height: hp(100)},
 
     flx1 : {flex : 0.1},
     flx2 : {flex : 0.2},
