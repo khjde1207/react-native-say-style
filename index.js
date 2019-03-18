@@ -16,17 +16,21 @@ class T{
   }
   setThemeList(list){
     _.forEach(list, (value , key)=>{
-        this.themeList[key] = _.isFunction(value) ? value() : value;
+        this.themeList[key] = _.isFunction(value) ? value(styles,sizes) : value;
     });
   }
   appendTheme(themeObj){ 
     _.forEach(list, (value , key)=>{
-      this.themeList[key] = _.isFunction(value) ? value() : value;
+      this.themeList[key] = _.isFunction(value) ? value(styles,sizes) : value;
     });
   }
   changeTheme(themeName){
 
-    NativeTachyons.build({ rem : rem,fontRem : fontRem, ...this.themeList[themeName]},StyleSheet); 
+    NativeTachyons.build({ rem : rem,fontRem : fontRem},StyleSheet); 
+
+    if(this.themeList[themeName]){
+      _.merge(styles, this.themeList[themeName]);
+    } 
     
     for(idx in this.eventList){
       this.eventList[idx]();
@@ -34,8 +38,10 @@ class T{
     
   }
   setTheme(themeName){
-    NativeTachyons.build({ rem : rem,fontRem : fontRem, ...this.themeList[themeName]},StyleSheet);
-    
+    NativeTachyons.build({ rem : rem,fontRem : fontRem},StyleSheet);
+    if(this.themeList[themeName]){
+      _.merge(styles, this.themeList[themeName]);
+    } 
     
   }
 

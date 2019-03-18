@@ -480,7 +480,7 @@ export default {
     }(),
    
     hmax : {height: hp(100)},
-
+    
     flx1 : {flex : 0.1},
     flx2 : {flex : 0.2},
     flx3 : {flex : 0.3},

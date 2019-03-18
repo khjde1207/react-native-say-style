@@ -72,7 +72,27 @@ class StyleConv {
   }
   append(obj , key, value){
     var tmp = _.get(obj , key) || ""; 
-    return _.set(obj , key, `${tmp} ${value}`);
+    return _.set(obj , key, `${value} ${tmp}`.trim());
+  }
+  appends(ref , target ){
+    for(key in target){
+      ref = this.append(ref, key, target[key])
+    }
+    return ref;
+  }
+  appendTheme(ref , strTarget ){
+    let strName = strTarget ? strTarget : ref.th;
+    if(strName === undefined){return {}}
+    let path  = strName.replace(/ /g, ".");
+    let arrObj = _.pickBy(_.get(s, path), (d) => {return typeof d == 'string'} );
+    this.appends(ref, arrObj);
+    console.log(ref.color);
+    // console.log( " >>> ", data);  
+    //_.get(s, path) ,
+    // for(key in target){
+    //   ref = this.append(ref, key, target[key])
+    // }
+    // return ref;
   }
   
 }
