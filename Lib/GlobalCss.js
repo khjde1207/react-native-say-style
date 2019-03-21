@@ -447,10 +447,10 @@ export default {
     
     //percent
     ...function (){
-      let names = [ "w", "h" , "aw" , "ah"]
+      let names = [ "w", "h" , "aw" , "ah", "awh", "ahw"]
 
-      let values = ["{width : v+'%'}", "{height : v+'%'}" , "{width : wp(v)}" , "{height : hp(v)}"];
-      var rtn = {};
+      let values = ["{width : v+'%'}", "{height : v+'%'}" , "{width : wp(v)}" , "{height : hp(v)}", "{height : wp(v)}" , "{width : hp(v)}"];
+      var rtn = {};   
       for(let idx in names){
         let  key = names[idx];
         for(var i = 100 ; i >= 0 ; i--){
