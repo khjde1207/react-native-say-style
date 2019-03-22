@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import styled from 'styled-components';   
 
 import {Image as I} from 'react-native-elements';
-import {SC} from '../Lib/StyleConv';
+import {SC} from '../../Lib/StyleConv';
 import {styles as s, sizes} from "react-native-style-tachyons";
 
 import * as Animatable from 'react-native-animatable'; 
