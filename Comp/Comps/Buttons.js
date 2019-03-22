@@ -7,7 +7,7 @@ import {SC} from '../../Lib/StyleConv';
 import {styles as s, sizes} from "react-native-style-tachyons";
 
 // const aniB = Animatable.createAnimatableComponent(B);
-
+ 
 const Button = styled(B).attrs((props)=>{
   
   return SC.conv(props, {

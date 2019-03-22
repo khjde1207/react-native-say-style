@@ -7,7 +7,7 @@ import {styles as s, sizes} from "react-native-style-tachyons";
 
 import * as Animatable from 'react-native-animatable'; 
 let aniInput = Animatable.createAnimatableComponent(input);
-
+ 
 const Input = styled(input).attrs((props)=>{
   return SC.conv(props, {});
 })`

@@ -5,7 +5,7 @@ import * as Animatable from 'react-native-animatable';
 
 import {View as V, ScrollView as sv} from 'react-native';
 
-import {SC} from '../../Lib/StyleConv'; 
+import {SC} from '../../Lib/StyleConv';  
 import {styles as s, sizes} from "react-native-style-tachyons";
 
 const View = styled(V).attrs((props)=>{

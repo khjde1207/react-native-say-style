@@ -4,7 +4,7 @@ import AnimateNumber from '@bankify/react-native-animate-number'
 import * as Animatable from 'react-native-animatable';
 import {Text as T} from 'react-native';
 
-import {SC} from '../../Lib/StyleConv';
+import {SC} from '../../Lib/StyleConv'; 
 import {styles as s, sizes} from "react-native-style-tachyons";
 
 
