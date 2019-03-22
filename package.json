@@ -27,11 +27,11 @@
   "author": "",
   "bundleDependencies": false,
   "dependencies": {
+    "@bankify/react-native-animate-number": "^0.2.1",
     "lodash": "^4.17.11",
     "react": "^16.8.4",
     "react-native": "^0.59.1",
     "react-native-animatable": "^1.3.2",
-    "react-native-animate-number": "^0.1.2",
     "react-native-elements": "^1.1.0",
     "react-native-responsive-screen": "^1.2.1",
     "react-native-style-tachyons": "^4.0.0",
