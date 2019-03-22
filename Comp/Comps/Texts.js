@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
 import styled from 'styled-components/native';
-import {Text as T} from 'react-native';
-import * as Animatable from 'react-native-animatable';
-import {styles as s , SC} from 'react-native-say-style'
-
 import AnimateNumber from '@bankify/react-native-animate-number'
+import * as Animatable from 'react-native-animatable';
+import {Text as T} from 'react-native';
+
+import {SC} from '../Lib/StyleConv';
+import {styles as s, sizes} from "react-native-style-tachyons";
+
+
 
 const DefaultText = styled(T).attrs((props)=>{
   return SC.conv(props, {});

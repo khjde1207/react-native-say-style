@@ -1,10 +1,12 @@
 'use strict';
 import React, { Component } from 'react';
 import styled ,{compose} from 'styled-components';   
-import {View as V, ScrollView as sv} from 'react-native';
 import * as Animatable from 'react-native-animatable';
-import {styles as s , SC} from 'react-native-say-style'
 
+import {View as V, ScrollView as sv} from 'react-native';
+
+import {SC} from '../Lib/StyleConv';
+import {styles as s, sizes} from "react-native-style-tachyons";
 
 const View = styled(V).attrs((props)=>{
   return SC.conv(props, {});
