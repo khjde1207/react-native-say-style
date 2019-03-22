@@ -3,10 +3,10 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';   
 import { Picker as picker } from 'react-native';
+import * as Animatable from 'react-native-animatable'; 
 import {SC} from '../Lib/StyleConv';
 import {styles as s, sizes} from "react-native-style-tachyons";
 
-import * as Animatable from 'react-native-animatable'; 
 
 let aniPicker = Animatable.createAnimatableComponent(picker);
 const Picker = styled(picker).attrs((props)=>{
