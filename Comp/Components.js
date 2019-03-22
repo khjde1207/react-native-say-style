@@ -7,9 +7,9 @@ import Icon from './Comps/Icons';
 import Card from './Comps/Cards';
 import Input from './Comps/Inputs';
 import Picker from './Comps/Pickers';
-import {Scene  , Router , Actions , Reducer , ActionConst, Overlay , Tabs , Modal , Drawer , Stack , Lightbox  } from './Comps/Flux'
-
-
+//import {Scene  , Router , Actions , Reducer , ActionConst, Overlay , Tabs , Modal , Drawer , Stack , Lightbox  } from './Comps/Flux'
+import {Scene  , Router , Stack ,  Overlay , Tabs , Modal , Drawer , Actions, ActionConst , Lightbox   }  from './Comps/Flux';
+ 
 
 export {
   Text,
@@ -21,5 +21,6 @@ export {
   Card,
   Input,
   Picker,
-  Scene  , Router , Actions , Reducer , ActionConst, Overlay , Tabs , Modal , Drawer , Stack , Lightbox  
+  Scene  , Router , Stack ,  Overlay , Tabs , Modal , Drawer , Actions, ActionConst , Lightbox
+  // Scene  , Router , Actions , Reducer , ActionConst, Overlay , Tabs , Modal , Drawer , Stack , Lightbox  
 }
