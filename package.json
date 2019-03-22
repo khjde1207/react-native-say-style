@@ -37,7 +37,7 @@
     "react-native-elements": "^1.1.0",
     "react-native-gesture-handler": "git+https://github.com/kmagiera/react-native-gesture-handler.git",
     "react-native-responsive-screen": "^1.2.1",
-    "react-native-router-flux": "^3.45.0",
+    "react-native-router-flux": "^4.0.6",
     "react-native-style-tachyons": "^4.0.0",
     "react-native-svg": "^9.3.6",
     "react-native-vector-icons": "^6.4.2",
