@@ -7,6 +7,7 @@ import Icon from './Comps/Icons';
 import Card from './Comps/Cards';
 import Input from './Comps/Inputs';
 import Picker from './Comps/Pickers';
+import {Scene, Router} from './Comps/Flux'
 
 
 
@@ -20,4 +21,5 @@ export {
   Card,
   Input,
   Picker,
+  Scene,Router
 }
