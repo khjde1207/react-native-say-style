@@ -21,8 +21,3 @@ export {
   Input,
   Picker,
 }
-// export{
-
-// }
-
-
