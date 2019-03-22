@@ -17,7 +17,7 @@ export class Lightbox extends Component {
   render(){
     let tmpProps = Object.assign({},this.props); 
     SC.appendTheme(tmpProps,  this.props.th); 
-    return (<Lightbox_comp  ref={this.fnRef} {...tmpProps}></Lightbox_comp>)
+    return (<Lightbox_comp  ref={this.fnRef} {...tmpProps}>{tmpProps.children}</Lightbox_comp>)
   }
 }
 //=================================
@@ -32,7 +32,7 @@ export class Stack extends Component {
   render(){
     let tmpProps = Object.assign({},this.props); 
     SC.appendTheme(tmpProps,  this.props.th); 
-    return (<Stack_comp  ref={this.fnRef} {...tmpProps}></Stack_comp>)
+    return (<Stack_comp  ref={this.fnRef} {...tmpProps}>{tmpProps.children}</Stack_comp>)
   }
 }
 //=================================
@@ -47,7 +47,7 @@ export class Drawer extends Component {
   render(){
     let tmpProps = Object.assign({},this.props); 
     SC.appendTheme(tmpProps,  this.props.th); 
-    return (<Drawer_comp  ref={this.fnRef} {...tmpProps}></Drawer_comp>)
+    return (<Drawer_comp  ref={this.fnRef} {...tmpProps}>{tmpProps.children}</Drawer_comp>)
   }
 }
 //=================================
@@ -62,7 +62,7 @@ export class Modal extends Component {
   render(){
     let tmpProps = Object.assign({},this.props); 
     SC.appendTheme(tmpProps,  this.props.th); 
-    return (<Modal_comp  ref={this.fnRef} {...tmpProps}></Modal_comp>)
+    return (<Modal_comp  ref={this.fnRef} {...tmpProps}>{tmpProps.children}</Modal_comp>)
   }
 }
 //=================================
@@ -77,7 +77,7 @@ export class Tabs extends Component {
   render(){
     let tmpProps = Object.assign({},this.props); 
     SC.appendTheme(tmpProps,  this.props.th); 
-    return (<Tabs_comp  ref={this.fnRef} {...tmpProps}></Tabs_comp>)
+    return (<Tabs_comp  ref={this.fnRef} {...tmpProps}>{tmpProps.children}</Tabs_comp>)
   }
 }
 //=================================
@@ -92,7 +92,7 @@ export class Overlay extends Component {
   render(){
     let tmpProps = Object.assign({},this.props); 
     SC.appendTheme(tmpProps,  this.props.th); 
-    return (<Overlay_comp  ref={this.fnRef} {...tmpProps}></Overlay_comp>)
+    return (<Overlay_comp  ref={this.fnRef} {...tmpProps}>{tmpProps.children}</Overlay_comp>)
   }
 }
 //====================================
@@ -107,7 +107,7 @@ export class Router extends Component {
   render(){
     let tmpProps = Object.assign({},this.props); 
     SC.appendTheme(tmpProps,  this.props.th); 
-    return (<Router_comp  ref={this.fnRef} {...tmpProps}></Router_comp>)
+    return (<Router_comp  ref={this.fnRef} {...tmpProps}>{tmpProps.children}</Router_comp>)
   }
 }
  
@@ -123,6 +123,6 @@ export class Scene extends Component {
   render(){
     let tmpProps = Object.assign({},this.props); 
     SC.appendTheme(tmpProps,  this.props.th); 
-    return (<Scene_comp  ref={this.fnRef} {...tmpProps}></Scene_comp>)
+    return (<Scene_comp  ref={this.fnRef} {...tmpProps}>{tmpProps.children}</Scene_comp>)
   }
 }
