@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import * as Animatable from 'react-native-animatable'; 
 import {Card as card} from 'react-native-elements';
 
-
+import {SC}  from '../../Lib/StyleConv';
 import {styles as s, sizes} from "react-native-style-tachyons";
 
  
