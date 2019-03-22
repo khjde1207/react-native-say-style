@@ -28,6 +28,8 @@
   "bundleDependencies": false,
   "dependencies": {
     "@bankify/react-native-animate-number": "^0.2.1",
+    "@react-native-community/slider": "^1.0.3",
+    "@react-native-community/viewpager": "^1.1.5",
     "lodash": "^4.17.11",
     "react": "^16.8.4",
     "react-native": "^0.59.1",

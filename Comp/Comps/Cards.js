@@ -8,7 +8,7 @@ import {styles as s, sizes} from "react-native-style-tachyons";
 
  
 //MyCustomComponent = Animatable.createAnimatableComponent(MyCustomComponent);
-
+ 
 const Card = styled(card).attrs((props)=>{
   return SC.conv(props, {});
 })`
