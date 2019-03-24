@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';   
 // import {Scene as scene , Router as router, Actions , Reducer , ActionConst, Overlay as overlay, Tabs as tabs, Modal as modal, Drawer as drawer, Stack as stack, Lightbox as lightbox } from 'react-native-router-flux';
-import {  Scene     as Scene_ , 
-          Router    as Router_, 
-          Stack     as Stack_, 
-          Lightbox  as Lightbox_,
-          Drawer    as Drawer_,
-          Modal     as Modal_, 
-          Tabs      as Tabs_, 
-          Overlay   as Overlay_, 
+import {  Scene     ,//as Scene_ , 
+          Router    ,//as Router_, 
+          Stack     ,//as Stack_, 
+          Lightbox  ,//as Lightbox_,
+          Drawer    ,//as Drawer_,
+          Modal     ,//as Modal_, 
+          Tabs      ,//as Tabs_, 
+          Overlay   ,//as Overlay_, 
           Actions,
           ActionConst} from 'react-native-router-flux';
 import {SC}  from '../../Lib/StyleConv';
